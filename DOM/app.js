@@ -4,10 +4,10 @@
 // console.log(document.forms);
 // console.log(document.links);
 
-// document.getElementById
-// let item = document.getElementById('test');
-// input.value = 'Bu bir input';
-// input.className = 'test-class'
+//document.getElementById
+//let item = document.getElementById('pwd');
+//input.value = 'Lutfen Sifrenizi Giriniz';
+//input.className = 'form-group';
 
 
 
@@ -24,8 +24,8 @@
 
 
 
-// document.getElementsByClassName
-// let items = document.getElementsByClassName('list-group-item');
+//document.getElementsByClassName
+//let items = document.getElementsByClassName('list-group-item');
 
 // items[3].textContent = 'Hello';
 // items[0].style.backgroundColor = 'red';
@@ -65,9 +65,9 @@
 
 // create element
 
-// let button = document.createElement('button');
+//let button = document.createElement('button');
 // button.className = 'btn btn-success';
-// button.innerHTML = 'Created button';
+//button.innerHTML = 'Created button';
 // button.setAttribute('id', 'yeni_buton');
 // button.setAttribute('data', 'button_data');
 
@@ -82,20 +82,20 @@
 
 
 
-// function tikla() {
-//     console.log('Butona tiklandi');
-//     alert('asdljasda')
-// }
+//function tikla() {
+//    console.log('Butona tiklandi');
+//    alert('asdljasda')
+//}
 
-// let button = document.querySelector('#test_event');
+//let button = document.querySelector('#submit');
 
-// button.addEventListener('click', function (ele) {
-//     console.log(ele.target)
+//button.addEventListener('click', function (ele) {
+//    console.log(ele.target)
 
-//     // console.log(e.layerX)
-//     // console.log(e.layerY)
-//     // console.log('funksion calisti')
-// });
+  //  console.log(e.layerX)
+   // console.log(e.layerY)
+   // console.log('funksion calisti')
+//});
 
 
 // let input = document.querySelector('#exampleInputPassword1');
@@ -113,13 +113,13 @@
 // }
 
 
-let link = document.querySelector('#test_link');
+//let link = document.querySelector('#test_link');
 
-link.addEventListener('click', function (e) {
-    console.log(e.target);
-    e.preventDefault();
+l//ink.addEventListener('click', function (e) {
+   // console.log(e.target);
+    //e.preventDefault();
 
-    console.log('link calisti');
+    //console.log('link calisti');
 
     // .....
     // .....
@@ -130,5 +130,5 @@ link.addEventListener('click', function (e) {
     // .....
     // .....
 
-    location.href = "http://google.com"
-});
+ //   location.href = "http://google.com"
+//});

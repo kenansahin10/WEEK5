@@ -83,3 +83,8 @@ ul.appendChild(txtDogum);
 
 
 
+let liste=document.createElement('li');
+        liste.id='İsim Listesi';
+        liste.className='list-group-item';
+        liste.innerHTML="İsim Listesi";
+        ul.appendChild(liste);
